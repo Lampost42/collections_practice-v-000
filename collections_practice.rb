@@ -8,5 +8,5 @@ end
 
 def swap_elements(array)
   array[1,2] = array[1, 2].reverse
-  
+  array
 end
