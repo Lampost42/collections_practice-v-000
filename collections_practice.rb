@@ -12,3 +12,4 @@ def sort_array_desc(array)
       return -1
     end
   end
+end
