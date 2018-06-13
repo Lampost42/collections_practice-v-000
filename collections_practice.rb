@@ -7,8 +7,7 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  temp = array
-  array[1] = temp[2]
-  return array
-  array[2] = temp[1]
+  temp = array[1]
+  temp2 = array[2]
+  array[1]
 end
