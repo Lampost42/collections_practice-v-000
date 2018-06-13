@@ -32,6 +32,6 @@ def sum_array(array)
   array.inject(:+)
 end
 
-def add_s
+def add_s(array)
   array.collect.with_index{|e, i| e << "s" if i != 1}
 end
