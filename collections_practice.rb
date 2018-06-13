@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(array)
   array.sort.reverse
-end
+def
 
 def swap_elements(array)
   array[1,2] = array[1, 2].reverse
