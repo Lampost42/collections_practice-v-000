@@ -4,8 +4,9 @@ end
 
 def sort_array_desc(array)
   array.sort.reverse
-def SORT_ARRAY_CHAR_COUNT(array)
-
+def sort_array_char_count(array)
+  array.sort{|a,b| a.length <=> 
+end
 def swap_elements(array)
   array[1,2] = array[1, 2].reverse
   array
