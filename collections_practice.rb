@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s
-  array.collect.with_index{|e, i| e << "s" if i != 1
+  array.collect.with_index{|e, i| e << "s" if i != 1}
 end
