@@ -7,6 +7,6 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  array[1, 2].reverse
-  array
+  array[0] + array[1, 2].reverse
+  
 end
